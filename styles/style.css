@@ -1,0 +1,136 @@
+/* ------------------------
+        font style 
+--------------------------*/
+
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Poppins:ital,wght@0,400;1,500&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* main player section start */
+
+.main-player {
+    Width: 1621px;
+    Height: 746px;
+    background-color: #041e2e;
+    margin: auto;
+    margin-Top: 50px;
+    border-radius: 30px;
+}
+
+.player-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+}
+
+.player-tex {
+    border: 1px solid none;
+    color: aliceblue;
+    Width: 551px;
+    Height: 520px;
+    margin-Top: 104px;
+    margin-Left: 140px;
+    border-radius: 5px;
+}
+
+.main-blog {
+    position: absolute;
+    font-size: 80px;
+    font-weight: bold;
+    height: 240px;
+    width: 531px;
+    line-height: 80px;
+}
+
+small {
+    position: absolute;
+    height: 20px;
+    width: 500px;
+    margin-top: 350px;
+    font-size: 16px;
+}
+
+.player-banner img {
+    position: absolute;
+    width: 681px;
+    height: 713px;
+    overflow: hidden;
+    margin-left: 44px;
+    margin-top: 28px;
+}
+
+.button {
+    position: absolute;
+    margin-top: 460px;
+    background-image: linear-gradient(tomato, red);
+    padding: 10px 15px;
+    font-size: 24px;
+    color: whitesmoke;
+    text-decoration: none;
+    border-radius: 5px;
+
+}
+
+/* section-2 playing football start */
+
+
+.playing-start {
+    Width: 1621px;
+    Height: 746px;
+    margin: auto;
+    margin-top: 150px;
+
+}
+
+.player-on-feild {
+    display: grid;
+    grid-template-columns: 350px repeat(3, 1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+
+}
+
+.playing-football {
+    border: 1px solid red;
+    height: 400px;
+    border-radius: 14px;
+}
+
+#hello-3 {
+    background-color: #041e2e;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    height: 350px;
+    color: black;
+    border-radius: 10px;
+
+}
+
+.player-update {
+    height: 40px;
+    width: 230px;
+    background-color: white;
+    margin-top: 35px;
+    margin-left: 30px;
+    font-size: 22px;
+    text-align: center;
+    padding: 15px 25px;
+    border-radius: 10px;
+}
+
+#blog-style {
+    background-image: linear-gradient(tomato, red);
+
+}
+
+.playing-football img {
+    width: 391.667px;
+
+}
+
+.icons {
+    display: flex;
+    justify-content: space-evenly;
+}
