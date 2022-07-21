@@ -246,5 +246,40 @@ hr{
         margin-top:29px;
         width:358px;
     }
+.playing-start{
+    margin-top:50px;
+}
+    #hello-3{
+        width:23%;
+        margin-top: 50px;
+        background-color: white;
+    }
+    .player-update{
+        border: 1px solid black;
+    }
+    #up-match{
+        width:270px;
+        font-size: 30px;
+    }
+    #all-match{
+        width: 193px;
+        margin-left: 62px;
+    }
+    #blog-style{
+        width: 193px;
+        margin-left: 62px;
+    }
+.playing-football{
+    width:370px;
+}
+.player-on-feild{
+    grid-template-columns: repeat(1, 1fr);
+}
+
+
+
+footer{
+    display: none;
+}
 
 }
