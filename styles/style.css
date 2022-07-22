@@ -218,8 +218,9 @@ hr {
 /* responsive site */
 @media screen and (max-width: 677px) {
     .main-player {
-        width: 95%;
+        width: 100%;
         height: 770px;
+        margin-left: 10%;
 
 
     }
