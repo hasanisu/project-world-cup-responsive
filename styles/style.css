@@ -211,16 +211,26 @@ hr {
     font-size: 18px;
 
 }
+.link{
+    position: absolute;
+    background-image: linear-gradient(red, orange );
+    padding: 10px 20px;
+    margin-left: 50%;
+    margin-top: 142px;
+    display: none;
+}
 
 /* footer section end */
 
 
-/* responsive site */
+/*---------------------------------------
+            responsive site 
+ ----------------------------------------*/
 @media screen and (max-width: 677px) {
     .main-player {
-        width: 100%;
+        width: 90%;
         height: 770px;
-        /* margin-left: 10%; */
+        /* margin-left: 5%; */
 
 
     }
@@ -369,5 +379,193 @@ hr {
     }
 
 
+
+}
+
+/* --------------------------------------
+            New mini pad  
+------------------------------------------*/
+@media screen and (min-width: 678px) and (max-width: 1100px) {
+    .main-player {
+        width: 90%;
+        height: 450px;
+        /* margin-left: 5%; */
+
+
+    }
+
+    .player-container {
+        width: 100%;
+        /* grid-template-columns: repeat(1, 1fr); */
+
+    }
+
+    .player-tex {
+        border: 1px solid none;
+        width: 85%;
+        height: 400px;
+        margin: auto;
+    }
+
+    .main-blog {
+        font-size: 2.5em;
+        width: 40%;
+        line-height: 1.4em;
+        margin-top: 40px;
+        /* text-align: center; */
+
+    }
+
+    small {
+        width: 37%;
+        margin-top: 25%;
+        /* text-align: center; */
+    }
+
+    .button-help {
+        
+        /* margin-left: 05%; */
+
+    }
+    .button{
+        margin-top: 37%;
+    }
+    .player-banner img {
+        height: 384px;
+        margin-top: 65px;
+        width: 41%;
+        margin-left:8px;
+    }
+
+    /* .playing-start {
+        margin-top: 100%;
+
+    } */
+
+    #hello-3 {
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        width: 90%;
+        /* margin-top: 50px; */
+        background-color: white;
+        box-shadow: 0px 0px 0px 0px;
+        margin-top: -38%;
+        align-items: center;
+        height: 29%;
+
+    }
+
+    .player-update {
+        border: 1px solid lightgray;
+        /* margin: 62px; */
+        
+    }
+
+    #up-match {
+        width: 85%;
+        margin-left: 81px;
+        font-size: 1.5em;
+        padding-bottom: 20px;
+        text-align: center;
+        margin-left: 44px;
+        line-height: 1em;
+    }
+
+    #all-match {
+        width: 45%;
+        margin-left: 64px;
+        font-size: 1.5em;
+        line-height: 1em;
+    }
+
+    #blog-style {
+        width: 45%;
+        margin-left: 64px;
+        font-size: 1.5em;
+    }
+
+    .playing-start {
+        position: absolute;
+        width: 100%;
+        margin-top: 320px;
+        margin-left: 14px;
+        align-items: center;
+    }
+
+    .playing-football {
+        width: 90%;
+        height: 100%;
+        margin: auto;
+        align-items: center;
+        box-shadow: 0px 0px 0px 1px;
+
+    }
+
+    .playing-football img {
+        width: 100%;
+    }
+
+    .player-on-feild {
+        width: 808px;
+        height: ;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: center;
+        grid-column-gap: 2%;
+
+    }
+
+    .transfer-button {
+        width: 131px;
+        height: 42px;
+        font-size: 26px;
+        font-weight: bold;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+
+    .transfer-text {
+        font-size: 1.3em;
+    }
+
+    .fa-regular {
+        margin-bottom: 30%;
+        font-size: 1.2em;
+    }
+
+    .footer-container {
+        width: 100%;
+        margin-top: 10%;
+        height: 500px;
+    }
+
+    hr {
+        width: 50%;
+    }
+
+    .footer-short-text {
+
+        grid-template-columns: repeat(1, 1fr);
+        grid-row-gap: 17px;
+        width: 50%;
+    }
+
+    .footer-link {
+        width: 25%;
+        margin-bottom: 35px;
+    }
+
+.link{
+    display: block;
+    position: relative;
+    margin-top: 199%;
+    width: 76px;
+    margin-left: 44%;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    
+    
+}
 
 }
