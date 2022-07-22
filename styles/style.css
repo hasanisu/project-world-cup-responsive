@@ -216,21 +216,17 @@ hr {
 
 
 /* responsive site */
-@media screen and (max-width: 688px) {
+@media screen and (max-width: 677px) {
     .main-player {
-        width: 80%;
+        width: 95%;
+        height: 770px;
 
 
     }
 
     .player-container {
-        grid-template-columns: repeat(1, 1fr);
-
-    }
-
-    .player-banner img {
         width: 100%;
-        margin-right: 0;
+        grid-template-columns: repeat(1, 1fr);
 
     }
 
@@ -242,30 +238,32 @@ hr {
     }
 
     .main-blog {
-        font-size: 35px;
-        width: 438px;
-        line-height: 50px;
+        font-size: 2.5em;
+        width: 80%;
+        line-height: 1.5em;
         margin-top: 40px;
         text-align: center;
 
     }
 
     small {
-        width: 427px;
-        margin-top: 180px;
+        width: 80%;
+        margin-top: 55%;
+        text-align: center;
     }
 
     .button-help {
-        margin-top: -150px;
-        margin-left: 122px;
+        
+        margin-left: 25%;
 
     }
-
+    .button{
+        margin-top: 85%;
+    }
     .player-banner img {
         height: 344px;
-        margin-left: 108px;
-        margin-top: 1px;
-        width: 368px;
+        margin-top: 25px;
+        width: 82%;
     }
 
     .playing-start {
@@ -319,12 +317,13 @@ hr {
     }
 
     .playing-football img {
-        width: 551px;
+        width: 100%;
     }
 
     .player-on-feild {
         width: 100%;
         grid-template-columns: repeat(1, 1fr);
+        justify-content: center;
 
     }
 
